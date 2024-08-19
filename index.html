@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushroom Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.jpeg" alt="logo">
+        <nav class="navbar">
+            <ul>
+                <li>HOME</li>
+                <li>ACCOUNT</li>
+                <li>PAYMENT</li>
+                <li>ORDER</li>
+            </ul>
+        </nav>
+        <button id="contact">Contact Us</button>
+        <button id="email">Email Us</button>
+    </div>
+
+    <section>
+        <h1 class="heading1">WELCOME TO OUR SERVICE</h1>
+        <p class="paragraph1">
+            Hello sir/mam welcome to our shop. We deal with different types of mushrooms. <br> can order from us. 😊 Thank you 😊
+        </p>
+        <button class="order">Order Now</button>
+    </section>
+
+    <h1 class="heading2">OUR SERVICE</h1>
+    <div class="photo-section">
+        <div class="photo-item">
+            <img src="delivery png.png" alt="Delivery Service">
+            <p>We provide home delivery</p>
+        </div>
+        <div class="photo-item">
+            <img src="house png.jpeg" alt="In-house Shopping">
+            <p>We provide in-house shopping</p>
+        </div>
+        <div class="photo-item">
+            <img src="shopping png.png" alt="Shop From Store">
+            <p>We provide shop from store</p>
+        </div>
+    </div>
+
+    <section class="section">
+        <h1>OUR CLIENT</h1>
+        <div class="client-section">
+            <img src="redchilli.jpeg" alt="Client 1">
+            <img src="taste png.png" alt="Client 2">
+            <img src="greenchilli.jpeg" alt="Client 3">
+        </div>
+    </section>
+
+    <div class="form-section">
+        <h1 class="heading3">CONTACT US</h1>
+        <form action="backend.php">
+            <input type="text" name="name" placeholder="Enter your name">
+            <input type="text" name="amount" placeholder="Enter the amount of mushrooms">
+            <input type="number" name="number" placeholder="Enter your mobile number">
+            <input type="text" name="address" placeholder="Enter your delivery address">
+            <button id="reset" type="reset">Reset</button>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

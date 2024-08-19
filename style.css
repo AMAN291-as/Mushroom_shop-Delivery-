@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(159, 151, 151);
+    padding: 10px 20px;
+}
+
+.container img {
+    width: 73px;
+    height: 51px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar li {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbar li:hover {
+    color: blue;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px; /* Adjust the gap between the buttons */
+}
+
+#contact, #email {
+    background-color: #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#contact:hover, #email:hover {
+    background-color: lightgreen;
+}
+
+
+.heading1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.paragraph1 {
+    text-align: center;
+    font-size: 22px;
+    margin: 20px auto;
+    width: 70%;
+}
+
+.order {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order:hover {
+    background-color: darkgreen;
+}
+
+.heading2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+.photo-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.photo-item {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.photo-item img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.photo-item p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.section h1 {
+    text-align: center;
+    font-size: 34px;
+    margin: 40px 0 20px 0;
+}
+
+.client-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.client-section img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    margin: 0 20px;
+}
+
+.form-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+form input {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 400px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 5px;
+}
+
+form button {
+    width: 100px;
+    margin: 20px 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+}
+
+form button#reset {
+    background-color: red;
+}
+
+form button:hover {
+    background-color: darkgreen;
+}
+
+form button#reset:hover {
+    background-color: darkred;
+}
+
+@media (max-width: 768px) {
+    .photo-section, .client-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photo-item, .client-section img {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    form input {
+        width: 90%;
+    }
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This ensures the items are on opposite sides */
+    background-color: rgba(159, 151, 151);
+    padding: 10px 20px;
+}
+
+.container img {
+    width: 73px;
+    height: 51px;
+}
+
+.navbar {
+    flex: 1; /* This allows the navbar to take up space between the logo and the buttons */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar li {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbar li:hover {
+    color: blue;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px; /* Adjust the gap between the buttons */
+}
+
+#contact, #email {
+    background-color: #ccc;
+    padding: 10px 27px;
+    border-radius: 21px;
+    border: none;
+    cursor: pointer;
+}
+
+#contact:hover, #email:hover {
+    background-color: lightgreen;
+}
+
